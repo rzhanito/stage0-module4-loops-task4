@@ -10,7 +10,7 @@ public class NumberToBreakOn {
         else 
             for(int i = 1; i <= toBreakWith; i++){
                 System.out.println(i);
-                break;
+                if(i == toBreakWith) break;
         }
     }
 }
