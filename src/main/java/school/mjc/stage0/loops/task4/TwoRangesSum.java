@@ -11,6 +11,12 @@ public class TwoRangesSum {
                 System.out.println("last number in row is negative");
                 return;
             }
+        else if(numberToSkip == lastInRow){
+            for(int i = 1; i < lastInRow; i++){
+                skippedSum += i;
+            }
+            
+        }
         else{
             for(int i = 1; i < lastInRow; i++){ 
              if(i == numberToSkip){
